@@ -1,5 +1,14 @@
-abc
-작업된 코드
-두번째 코드
-세번째 코드
-4번째 코드
+[ git ]
+--- vscode
+1. branch create (git switch -c feat/main-ui)
+2. stage change (git add .)
+3. commit (git commit) - feat: 메세지 작성
+4. push (git push -u origin feat/main-ui)
+
+--- github.com
+1. PR > main branch merge
+
+--- vscode 
+1. checkout to (git switch main)
+2. branch merge (git merge feat/main-ui)
+3. branch delete (git branch -d feat/main-ui)
